@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      font-family: cursive;
+      background-color: black;
+    }
+    .bitcoin{
+      background-color: ;
+      padding: 80px, 0;
+      text-align: left;
+    }
+    .container-fluid-demo{
+      padding: 40px, 20px;
+      background-color: dimgray;
+    }
+    .col-demo{
+      background-color: slategray;
+      color: lightblue;
+      border: 1px solid;
+      padding: 20px;
+      text-align: center;
+    }
+    .border{
+      background-color: dimgray;
+      color: lightblue;
+      border: 1px solid;
+      padding: 40px, 40px;
+      text-align: left;
+    }
+    h1, h2{
+      color: gold;
+    }
+    .close{
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bitcoin">
+    <h1> Learn more about Crypto Curreny! </h1>
+    <h2>A cryptocurrency is a digital currency, which is an alternative form of payment created using encryption algorithms. The use of encryption technologies means that cryptocurrencies function both as a currency and as a virtual accounting system.</h2>
+  </div>
+  <br>
+
+  <div class="alert alert-danger alert-dismissable fade show role" role="alert">
+          Warning! If you plan on investing in cryptocurrency, you have to understand how trading works, which is why don't invest in it unless thoroughly researched!
+          <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+<div>
+  <div class="container-fluid-demo container-fluid">
+    <h1 class="text-center mb-4">List of currencies</h1>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="bitcoin.png" class="img-fluid mb-2">
+        <a href="https://bitcoin.org/en/"><button class="btn-secondary"><h1>Bitcoin</h1></button></a>
+      </div>
+      <div class="col-sm-36 col-md-18 col-lg-12 col-xl-9 col-demo">
+        <div class="border">
+          <h1>Name: Bitcoin</h1>
+        </div>
+        <div class="border">
+          <h1>Description:</h1>
+          <h2>Bitcoin is the public blockchain used to create and manage the cryptocurrency of the same name. Bitcoin mining is the race between miners to hash specific values and other block information to find the solution to a hashing problem and add a block to the blockchain. The winning miner is rewarded with bitcoins.</h2>
+        </div>
+        <div class="border">
+          <h2>Php Value: 5,562,602.44</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Litecoin.png" class="img-fluid mb-2">
+        <a href="https://litecoin.org/"><button class="btn-secondary"><h1>Litecoin</h1></button></a>
+      </div>
+      <div class="col-sm-36 col-md-18 col-lg-12 col-xl-9 col-demo">
+        <div class="border">
+          <h1>Name: Litecoin</h1>
+        </div>
+        <div class="border">
+          <h1>Description:</h1>
+          <h2>Litecoin is a decentralized peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license. Inspired by Bitcoin, Litecoin was among the earliest altcoins, starting in October 2011. In technical details, the Litecoin main chain shares a slightly modified Bitcoin codebase.</h2>
+        </div>
+        <div class="border">
+          <h2>Php Value: 4,918.26</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Tron.webp" class="img-fluid mb-2">
+        <a href="https://tron.network/"><button class="btn-secondary"><h1>Tron</h1></button></a>
+      </div>
+      <div class="col-sm-36 col-md-18 col-lg-12 col-xl-9 col-demo">
+        <div class="border">
+          <h1>Name: Tron</h1>
+        </div>
+        <div class="border">
+          <h1>Description:</h1>
+          <h2>Tron is a blockchain for creating decentralized applications. Its native token is TRX, which developers can use in their applications. Unlike similar blockchain projects, TRX is not used on the chain to pay transaction fees.</h2>
+        </div>
+        <div class="border">
+          <h2>Php Value: 11.80</h2>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
